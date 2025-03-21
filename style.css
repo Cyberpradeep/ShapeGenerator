@@ -1,0 +1,87 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#input{
+    width: 100vw;
+    height: 50vh;
+    background-color: beige;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size: 3em;
+}
+p{
+    font-size: 2em;
+    margin: 5px;
+}
+#number{
+    position: relative;
+    width:120px;
+    height:40px;
+    font-size: 1.5em;
+    padding: 3px;
+    border-radius: 40%;
+    text-align: center;
+}
+button{
+    width:90px;
+    height: 30px;
+    font-size: large;
+    background-color: gray;
+    color:white;
+    border-radius: 30%;
+}
+button:hover{
+    background-color: black;
+}
+.circle{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: white;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: 10px;
+    text-align: center;
+    background-color: black;
+}
+.square{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: white;
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    text-align: center;
+    background-color: red;
+}
+.rectangle{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: white;
+    height: 50px;
+    width: 90px;
+    margin: 5px;
+    text-align: center;
+    background-color:green;
+}
+#box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
